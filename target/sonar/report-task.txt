@@ -1,0 +1,6 @@
+projectKey=sonarqube_example:com.engineer
+serverUrl=http://localhost:9000
+serverVersion=8.1.0.31237
+dashboardUrl=http://localhost:9000/dashboard?id=sonarqube_example%3Acom.engineer
+ceTaskId=AW_nXOoNRzJN2zl6F8tE
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AW_nXOoNRzJN2zl6F8tE
