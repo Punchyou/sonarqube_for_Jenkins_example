@@ -21,16 +21,20 @@
 	<properties>
 	    <maven.compiler.source>1.6</maven.compiler.source>
 	    <maven.compiler.target>1.6</maven.compiler.target>
-    </properties>
+	    <sonar.host.url>http://xxxxx:9000</sonar.host.url>
+  	  	<sonar.login>be2fe3y27f07db354983dfxysdsa5256</sonar.login>
+  		<sonar.language>java</sonar.language>
+  		<sonar.scm.provider>git</sonar.scm.provider>
+	</properties>
 	<build>
-	<plugins>
-	 <plugin>
-	      <groupId>org.sonarsource.scanner.maven</groupId>
-	      <artifactId>sonar-maven-plugin</artifactId>
-	      <version>3.2</version>
-	  </plugin>
-	</plugins>
-	 </build>
+		<plugins>
+			 <plugin>
+	      		<groupId>org.sonarsource.scanner.maven</groupId>
+	      		<artifactId>sonar-maven-plugin</artifactId>
+	      		<version>3.2</version>
+	  		</plugin>
+		</plugins>
+	</build>
 </project>
 
 
